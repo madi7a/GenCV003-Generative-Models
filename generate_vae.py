@@ -2,9 +2,10 @@ import torch
 import torchvision.utils as vutils
 from mad_vae import ConvMADVAE 
 
- 
-WEIGHTS_PATH = "/teamspace/studios/this_studio/Cyshield/models/vae_cifar10_weights.pth" 
-# WEIGHTS_PATH = "/teamspace/studios/this_studio/Cyshield/models/vae_mnist_weights.pth"
+#  to generate cifer10 data
+WEIGHTS_PATH = "/weights/vae_cifar10_weights.pth" 
+# to generate mnsit data
+# WEIGHTS_PATH = "/weights/vae_mnist_weights.pth"
 NUM_IMAGES = 16
 Z_DIM = 256
 OUTPUT_FILENAME = "vae_generated_grid.png"

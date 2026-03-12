@@ -3,7 +3,7 @@ import torchvision.utils as vutils
 from mad_ddpm import MADUNet, sample_timestep, T, IMG_SIZE
 
 
-WEIGHTS_PATH = "models/mad_ddpm_cifar10.pth"
+WEIGHTS_PATH = "weights/mad_ddpm_cifar10.pth"
 NUM_IMAGES = 16
 OUTPUT_FILENAME = "ddpm_generated_grid.png"
 
