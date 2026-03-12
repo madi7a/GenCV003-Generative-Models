@@ -1,6 +1,6 @@
 import torch
 import torchvision.utils as vutils
-from mad_vae import ConvMADVAE 
+from models.mad_vae import ConvMADVAE 
 
 #  to generate cifer10 data
 WEIGHTS_PATH = "/weights/vae_cifar10_weights.pth" 
