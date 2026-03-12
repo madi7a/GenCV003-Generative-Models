@@ -1,0 +1,7 @@
+torch
+torchvision
+torchmetrics
+torch-fidelity
+torchsummary
+matplotlib
+numpy
