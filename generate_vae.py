@@ -3,7 +3,7 @@ import torchvision.utils as vutils
 from models.mad_vae import ConvMADVAE 
 
 #  to generate cifer10 data
-WEIGHTS_PATH = "/weights/vae_cifar10_weights.pth" 
+WEIGHTS_PATH = "weights/vae_cifar10_weights.pth" 
 # to generate mnsit data
 # WEIGHTS_PATH = "/weights/vae_mnist_weights.pth"
 NUM_IMAGES = 16
