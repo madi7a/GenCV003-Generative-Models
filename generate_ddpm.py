@@ -1,6 +1,6 @@
 import torch
 import torchvision.utils as vutils
-from mad_ddpm import MADUNet, sample_timestep, T, IMG_SIZE
+from models.mad_ddpm import MADUNet, sample_timestep, T, IMG_SIZE
 
 
 WEIGHTS_PATH = "weights/mad_ddpm_cifar10.pth"
